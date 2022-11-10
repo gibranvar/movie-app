@@ -1,0 +1,32 @@
+.ftr{
+    width: 100%;
+    font-size: 12px;
+    color: white;
+    padding: 20px;
+
+}
+.ftr-content{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.social-media{
+    display: flex;
+    justify-content: space-between;
+}
+.social{
+    
+    text-decoration: none ;
+    color: rgb(103, 122, 249);
+    padding-inline: 15px;
+
+}
+.terms{
+    margin: 15px;
+    color: #656565;
+    text-align: center;
+
+}
+span{
+    margin: 5px;
+}

@@ -1,0 +1,22 @@
+.comic-container{
+    cursor: pointer;
+    margin: 5px;
+    height: 100%;   
+   }
+   .comic-info {
+    text-align: center;
+
+     color: rgb(255, 255, 255);
+   
+   }
+   #img-comic{
+     height: 200px;
+     width: 150px;
+     padding: 10px;
+     object-fit: cover;
+     transition: transform 450ms;
+   }
+   #img-comic:hover{
+     transform: scale(1.20);
+   }
+   

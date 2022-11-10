@@ -1,0 +1,301 @@
+* {
+ /* outline: 1px solid red;    */
+ box-sizing: border-box;
+}
+.App{
+ background-color: none;
+}
+body {
+ background-color: none;
+ color: #ffffff;
+}
+
+
+.center-max-size {
+ max-width: 1020px;
+ margin: 0 auto;
+ padding: 0 15px;
+}
+
+.header {
+ width: 100%;
+ display: flex;
+ justify-content: space-between;
+ padding: 15px;
+ text-transform: uppercase;
+}
+
+.poster {
+ background-size: cover;
+ background-position: top center;
+ min-height: 600px;
+ display: flex;
+ align-items: flex-end;
+ position: relative;
+}
+
+.poster-content {
+ padding-bottom: 50px;
+ width: 80%;
+}
+p{
+  font-size: 1.2vw;
+  font-weight: 400;
+  line-height: normal;
+}
+h1 {
+ font-size: 50px;
+ margin-top: 0;
+ line-height: 1;
+ margin-bottom: 10px;
+}
+
+.container {
+ background-color: none;
+ padding-top: 80px;
+ padding-bottom: 80px;
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr;
+ gap: 30px;
+}
+
+
+.button {
+ margin: 20px 0;
+ background: #0F1014;
+ color: white;
+ border: none;
+ outline: none;
+ cursor: pointer;
+ transition: box-shadow 0.2s;
+ text-transform: uppercase;
+ letter-spacing: 2px;
+ border: 1px solid gray;
+}
+
+.button:hover {
+ box-shadow: 0 5px 5px rgba(0,0,0,0.5);
+}
+
+
+.info-trailer{ 
+ margin-left: 225px;
+ margin-right: 225px;
+ margin-bottom: 50px;
+ position: absolute;
+}
+
+
+.youtube{
+ background-color: #0F1014;
+ width: 100%;
+ height: 600px;
+}
+
+.youtube-container {
+ position: absolute;
+ left: 0;
+ right: 0;
+ bottom: 0;
+}
+
+.brand {
+ font-weight: bold;
+}
+
+/*-- MOVIE */
+
+.movie {
+ position: relative;
+ cursor: pointer;
+ text-align: left;
+ font-size: 16px;
+}
+
+.movie img {
+ height: 355px;
+ max-width: 100%;
+}
+
+.movie-infos {
+ padding: 15px 0;
+}
+
+
+.movie-title:hover{
+  opacity: .7;
+  transform: scale(1.15);
+}
+.movie-title {
+transition: transform 500ms;
+ margin: 0;
+ color: rgb(255, 255, 255);
+}
+
+.movie-voting {
+ font-weight: bolder;
+ position: absolute;
+ right: 5px;
+ top: 5px;
+ background-color: rgb(103, 122, 249);
+ padding: 10px;
+ font-size: 12px;
+ border-radius: 50px;
+}
+/**Movie INFO**/
+.poster-banner {
+  background-size: cover;
+  background-position: top center;
+  min-height: 800px;
+  display: flex;
+  padding: 100px;
+  align-items: center;
+  position: relative;
+ }
+.poster-container{
+  margin: 50px 150px 0 150px;
+  width: 100%;
+ }
+ .poster-ctnt{
+   display: flex;
+ 
+ }
+ .poster-img{
+  height: 355px;
+  max-width: 100%;
+
+ }
+ .poster-title{
+  margin-left: 30px;
+  margin-right: 30px;
+   display: inline;
+ }
+ .original-title{
+  margin: 10px;
+ }
+ .original-title>h1{
+  font-size:40px;
+ }
+ .poster-info{
+   display:  flex;
+ 
+ }
+
+ .movie-details{
+    display: flex;
+    margin: 10px;
+    align-items: center;
+ }
+ .icon-movie{
+  margin-top: -4px;  
+}
+.poster-description{
+  margin: 10px;
+}
+.genre-movie>strong{
+  margin: 0;
+  font-size: 18px;
+}
+
+ 
+/** SEARCH **/
+.form {
+ position: relative;
+}
+#navbar-content::-webkit-scrollbar{
+ background-color: rgb(0, 0, 0) !important;
+ transition:  200ms linear ;
+}
+
+#search-input{
+ background-color: none;
+}
+#search {
+ border: 2px solid rgb(255, 255, 255);
+ outline: transparent;
+ background-color: white;
+ padding: 5px 10px;
+ color: black;
+
+}
+#search-button{
+ color: white;
+ background-color: transparent;
+ border-style: none;
+}
+#search-button:hover{
+ color: rgb(103, 122, 249) ;
+}
+nav{
+   
+ margin: 15px;
+ background-color: none;
+}
+.container-fluid{
+ background-color: none;
+}
+
+.nav-link{
+ margin-left: 15px ;
+ margin-right: 15px ;
+ color: white;
+}
+.actived{
+ color: rgb(103, 122, 249);
+}
+strong{
+ margin-left: 10px;
+ font-size: 22px;
+ color: white;
+}
+#nav-toggler{
+ background-color: white;
+}
+#navbar-list:hover{
+ color: #656565;
+}
+#navbar-content{
+ background:none;
+}
+/* Carrousel */
+.comic-container{
+ cursor: pointer;
+ margin: 5px;
+ height: 100%;   
+}
+.comic-info {
+ text-align: center;
+
+  color: rgb(255, 255, 255);
+
+}
+#img-comic{
+  height: 200px;
+  width: 150px;
+  padding: 10px;
+  object-fit: cover;
+  transition: transform 450ms;
+}
+#img-comic:hover{
+  transform: scale(1.20);
+}
+.main-comic{
+ position: relative;
+ margin-top: -55px;
+ width: 100%;
+ background: transparent;
+ display: grid;
+ place-items: center;
+ 
+}
+#slider-comic{
+ display: flex;
+ width: 100%;
+ height: auto;
+ overflow-y: hidden;
+ overflow-x: scroll;
+}
+#slider-comic::-webkit-scrollbar{
+display: none;
+
+}
